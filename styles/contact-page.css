@@ -1,0 +1,40 @@
+.contact-page{
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 500px;
+    font-family: sans-serif;
+    color: rgb(179, 179, 179);
+}
+.contact-info span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact-grid{
+    display: flex;
+    gap: 160px;
+    margin-top: 35px;
+}
+.grid p{
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 17px;
+}
+.contact-page .language-picker{
+    margin-top: 35px;
+}
+.extra-1{
+    font-size: 14px;
+    margin-top: 40px;
+}
+.extra-2{
+    font-size: 13px;
+    color: grey;
+    margin-top: 40px;
+}
+.extra-2 span{
+    color: rgb(71, 119, 217);
+    text-decoration: underline;
+    cursor: pointer;
+}

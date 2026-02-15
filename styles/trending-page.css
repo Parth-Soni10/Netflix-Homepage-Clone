@@ -1,0 +1,133 @@
+.trending-now-page {
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 90%;
+}
+.trending-now{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
+    height: 400px
+}
+.shows {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 40px 0;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+.shows::-webkit-scrollbar {
+    display: none;
+}
+
+.show-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 200px; 
+    height: 250px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    scroll-snap-align: start;
+}
+
+.show-card:hover {
+    transform: scale(1.1); 
+    z-index: 10; 
+}
+
+.rank {
+    font-size: 100px;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke: 2px rgb(255, 255, 255); 
+    font-family: Impact, sans-serif;
+    line-height: 1;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    z-index: 3; 
+}
+
+.poster {
+    width: 150px;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 40px;   
+    z-index: 2;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+}
+
+.more-reasons{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.reasons{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.reason-card{
+    background: linear-gradient(149deg, #131834 0%, #1d1424 100%);
+    width: 250px;
+    height: 300px;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.reason-card::before{
+    content: '';
+    position: absolute;
+    right: 0; 
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.card-tv::before {
+    background: radial-gradient(circle at 100% 100%, rgba(72, 28, 163, 0.5) 0%, rgba(25, 33, 69, 0) 50%);
+}
+.card-download::before {
+   background: radial-gradient(circle at 100% 100%, rgba(151, 19, 70, 0.5) 0%, rgba(25, 33, 69, 0) 50%);
+}
+.card-watch::before {
+    background: radial-gradient(circle at 100% 100%, rgba(100, 10, 60, 0.5) 0%, rgba(25, 33, 69, 0) 50%);
+}
+.card-kids::before {
+    background: radial-gradient(circle at 100% 100%, rgba(168, 26, 26, 0.5) 0%, rgba(25, 33, 69, 0) 50%);
+}
+.content{
+    position: relative;
+    z-index: 2;
+}
+.content h3{
+    font-size: 23px;
+}
+.content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+}
+.card-icon-svg{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 70px;
+    z-index: 2;
+}
+

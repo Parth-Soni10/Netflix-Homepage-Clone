@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/front-page.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/trending-page.css">
+    <link rel="stylesheet" href="styles/faq-page.css">
+    <link rel="stylesheet" href="styles/contact-page.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <section class="opening-page">
+        <div class="background-picture">
+            <img src="pictures/Netflix Indian Movies and Web Series.jpeg" alt="Netflix Background Cover" class="cover-pic">
+            <div class="header">
+                <div class-="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="netflix-logo">
+                </div>
+                <div class="sign-in-column">
+                    <div class="language-picker">
+                        <i class="fa-solid fa-language"></i> 
+                        <select name="language" id="language-select">
+                            <option value="en">English</option>
+                            <option value="hi">हिन्दी</option>
+                        </select>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <button class="sign-in">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+            <div class="page-info">
+                <div class="div">
+                    <div class="info-1">
+                        Unlimited movies, shows, and more
+                    </div>
+                    <div class="info-2">
+                        Starts at ₹149. Cancel at any time.
+                    </div>
+                    <div class="info-3">
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </div>
+                    <div class="info-4">
+                        <div class="wrapper">
+                            <input type="text" class="email" id="email-input" placeholder=" ">
+                            <label for="email-input" class="email-label">Email address</label>
+                        </div>
+                        
+                        <button class="get-started">
+                            <strong>Get Started</strong> >
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending-now-page">
+        <div class="trending-now">
+            Trending Now
+            <div class="shows">
+                <div class="show-card">
+                    <div class="rank">
+                        1
+                    </div>
+                    <img src="pictures/Dhurandhar_poster.jpg" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        2
+                    </div>
+                    <img src="pictures/taskaree.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        3
+                    </div>
+                    <img src="pictures/Tere_Ishk_Mein_poster.jpg" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        4
+                    </div>
+                    <img src="pictures/kapil.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        5
+                    </div>
+                    <img src="pictures/strangerthings.jpg" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        6
+                    </div>
+                    <img src="pictures/haq.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        7
+                    </div>
+                    <img src="pictures/jllb3.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        8
+                    </div>
+                    <img src="pictures/ddpd.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        9
+                    </div>
+                    <img src="pictures/akhanda.png" alt="Dhurandhar Poster" class="poster">
+                </div>
+                <div class="show-card">
+                    <div class="rank">
+                        10
+                    </div>
+                    <img src="pictures/bridgerton.jpg" alt="Dhurandhar Poster" class="poster">
+                </div>
+            </div>
+        </div>
+        <div class="more-reasons">
+            More reasons to join
+            <div class="reasons">
+                <div class="reason-card card-tv">
+                    <div class="content">
+                        <h3>Enjoy on your TV</h3>
+                        <p>
+                            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                        </p>
+                    </div>
+                    <svg class="card-icon-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="tvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#5e2a9e;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#2a124d;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="4" y="10" width="56" height="36" rx="4" fill="url(#tvGrad)" stroke="#8e44ad" stroke-width="1"/>
+                        <path d="M20 52 L44 52" stroke="#6c3483" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M32 46 L32 52" stroke="#6c3483" stroke-width="4"/>
+                    </svg>
+                </div>
+                <div class="reason-card card-download">
+                    <div class="content">
+                        <h3>Download your shows to watch offline</h3>
+                        <p>
+                            Save your favourites easily and always have something to watch.
+                        </p>
+                    </div>
+                    <svg class="card-icon-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="downGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#1c0b24;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9e1c55;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="32" cy="32" r="28" fill="url(#downGrad)" stroke="#d63384" stroke-width="2"/>
+                        <path d="M32 18 V42 M22 32 L32 44 L42 32" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="reason-card card-watch">
+                    <div class="content">
+                        <h3>Watch everywhere</h3>
+                        <p>
+                            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                        </p>
+                    </div>
+                    <svg class="card-icon-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="teleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#d63384;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#5e2a9e;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M10 54 L30 34 L54 10" stroke="url(#teleGrad)" stroke-width="12" stroke-linecap="round"/>
+                        <circle cx="50" cy="14" r="8" fill="#ff6b6b"/>
+                        <path d="M10 20 L12 24 L16 26 L12 28 L10 32 L8 28 L4 26 L8 24 Z" fill="#d63384"/>
+                    </svg>
+                </div>
+                <div class="reason-card card-kids">
+                    <div class="content">
+                        <h3>Create profiles for kids</h3>
+                        <p>
+                            Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+                        </p>
+                    </div>
+                    <svg class="card-icon-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="kidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#9e1c28;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="24" y="24" width="36" height="36" rx="8" fill="url(#kidGrad)" />
+                        <circle cx="36" cy="38" r="2" fill="white"/> <circle cx="48" cy="38" r="2" fill="white"/> <path d="M38 48 Q42 54 46 48" stroke="white" stroke-width="2" fill="none"/> <rect x="4" y="10" width="30" height="30" rx="6" fill="#f8b6b6" opacity="0.8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq-page">
+        Frequently Asked Questions
+        <div class="faqs">
+            <details class="faq">
+                <summary class="question">
+                    What is Netflix?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+                        <br><br>
+                        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                    </div>
+                </div>
+            </details>
+            <details class="faq">
+                <summary class="question">
+                    How much does Netflix cost?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649/month.
+                    </div>
+                </div>
+            </details>
+            <details class="faq">
+                <summary class="question">
+                    Where can I watch?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                        <br><br>
+                        You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                    </div>
+                </div>
+            </details>
+            <details class="faq">
+                <summary class="question">
+                    How do I cancel?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        Netflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                    </div>
+                </div>
+            </details>
+            <details class="faq">
+                <summary class="question">
+                    What can I watch on Netflix?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        Netflix has an extensive library of feature films, documentaries, shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                    </div>
+                </div>
+            </details>
+            <details class="faq">
+                <summary class="question">
+                    Is Netflix good for kids?
+                    <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="white"></path>
+                    </svg>
+                </div>
+                </summary>
+                <div class="answer">
+                    <div class="inner-content">
+                        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                        <br><br>
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                    </div>
+                </div>
+            </details>
+        </div>
+        <div class="sign-in-2">
+            <div class="ready">
+                Ready to watch? Enter your email to create or restart your membership.
+            </div>
+            <div class="info-4">
+                <div class="wrapper">
+                <input type="text" class="email" id="email-input" placeholder=" ">
+                <label for="email-input" class="email-label">Email address</label>
+           </div>
+            <button class="get-started">
+                <strong>Get Started</strong> >
+            </button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-page">
+        <div class="contact-info">
+            Questions? Call <span>000-800-919-1743</span>
+            <div class="contact-grid">
+                <div class="grid">
+                    <p>FAQ</p>
+                    <p>Investor Relation</p>
+                    <p>Privacy</p>
+                    <p>Speed Test</p>
+                </div> 
+                <div class="grid">
+                    <p>Help Centre</p>
+                    <p>Jobs</p>
+                    <p>Cookie Preferences</p>
+                    <p>Legal Notices</p>
+                </div> 
+                <div class="grid">
+                    <p>account</p>
+                    <p>Viewing methods</p>
+                    <p>Corporate Information</p>
+                    <p>Only on Netflix</p>
+                </div> 
+                <div class="grid">
+                    <p>Media Center</p>
+                    <p>Terms of Use</p>
+                    <p>Contact us</p>
+                </div> 
+            </div>
+        </div>
+        <div class="language-picker">
+            <i class="fa-solid fa-language"></i> 
+                <select name="language" id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">हिन्दी</option>
+                    </select>
+            <i class="fa-solid fa-caret-down"></i>
+       </div>
+       <div class="extra-1">
+        Netflix India
+       </div>
+       <div class="extra-2">
+        This page is protected by Google reCAPTCHA to make sure you're not a bot. <span>Learn more.</span>
+       </div>
+    </section>
+</body>
+</html>
